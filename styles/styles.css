@@ -24,77 +24,229 @@ body{
 
 .page-container{
     background-color: white;
+    min-height: 100%;
     width: 1200px;
     margin: 0 auto;
     padding: 0;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
 .index-background{
     background-image: url(../images/index-background.jpg);
+    background-color: rgba(249, 239, 227, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    min-height: 700px;
+    margin-bottom: 150px;
 }
 
 /*Header*/
+.page-header{
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+
+.navigation-link{
+    text-decoration: none;
+    color: rgba(68, 63, 69, 1);
+    height: 104px;
+    width: 130px;
+    display: block;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 .navigation-list{
     margin: 0;
+    padding: 0;
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header-contact-phone{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    min-width: 260px;
+    min-height: 104px;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.header-contact-link{
     text-decoration: none;
     color: rgba(68, 63, 69, 1);
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
 }
 
 .page-header span{
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
+/*Main*/
+.main-container{
+    flex-grow: 1;
+}
 /*Hero*/
+.hero{
+    max-width: 600px;
+    padding-top: 141px;
+    margin-left: 141px;
+}
 .hero h1{
     font-size: 128px;
     line-height: 135px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 32px;
 }
 
 .hero blockquote{
     font-size: 40px;
     line-height: 47px;
+    margin: 0;
+    padding: 0;
 }
 
 /*Index-catalog*/
+.index-catalog{
+    padding: 0 70px;
+    margin-bottom: 150px;
+}
 .index-catalog-list{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
+
+.index-catalog-item{
+    width: 293px;
+    min-height: 366px;
+}
+
 .index-catalog-link{
     text-decoration: none;
     color: rgba(68, 63, 69, 1);
     font-size: 24px;
     line-height: 30px;
+    border: 1px solid rgba(68, 63, 69, 1);
+    display: block;
+    width: 244px;
+    height: 46px;
+    border-radius: 10px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.index-catalog-link span{
+    display: block;
+    max-width: 158px;
 }
 
 .catalog-name-long{
     font-size: 20px;
     line-height: 20px;
+    padding-top: 5px;
+}
+
+.index-catalog-image{
+    border-radius: 20px;
+    margin-bottom: 27px;
 }
 
 /*Constructor*/
+.constructor{
+    display: flex;
+    margin-bottom: 150px;
+    background-color: rgba(249, 227, 238, 1);
+}
+.constructor-content{
+    width: 488px;
+    min-height: 473px;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
 .constructor-title{
     font-size: 36px;
     line-height: 38px;
+    margin: 0;
+    padding-top: 124px;
+    margin-bottom: 17px;
+    text-align: center;
 }
 
 .constructor-content p{
     font-size: 18px;
     line-height: 27px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-bottom: 46px;
 }
 
 .constructor-button{
     text-decoration: none;
     color: rgba(68, 63, 69, 1);
     text-transform: uppercase;
+    border: 1px solid rgba(187, 105, 145, 1);
+    width: 302px;
+    height: 77px;
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 18px;
+    box-sizing: border-box;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0 auto;
 }
 
 /*History*/
+.history{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 70px;
+}
+.history-content{
+    background-image: url(../images/history-decor.svg);
+    background-repeat: no-repeat;
+    background-color: rgba(249, 239, 227, 1);
+    width: 488px;
+    min-height: 473px;
+}
+
 .history-content p{
     font-size: 18px;
     line-height: 27px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    min-height: 473px;
+    padding: 60px 60px;
+    box-sizing: border-box;
+}
+
+/*Footer*/
+.page-footer{
+    background-image: url(../images/footer-background.png);
+    background-color: rgba(249, 239, 227, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    min-height: 140px;
 }
