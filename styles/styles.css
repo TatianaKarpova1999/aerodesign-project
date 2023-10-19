@@ -1,0 +1,100 @@
+@font-face{
+    font-family: "Sitka Text";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/sitka.woff2") format("woff2");
+    font-display: swap;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: "Sitka Text", serif;
+    font-size: 24px;
+    line-height: 27px;
+    color: rgba(68, 63, 69, 1);
+    background-color: rgba(211, 172, 167, 1);
+    margin: 0;
+    padding: 0;
+    min-width: 1280px;
+}
+
+.page-container{
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.index-background{
+    background-image: url(../images/index-background.jpg);
+}
+
+/*Header*/
+.navigation-list{
+    margin: 0;
+    list-style-type: none;
+}
+
+.header-contact-phone{
+    text-decoration: none;
+    color: rgba(68, 63, 69, 1);
+}
+
+.page-header span{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/*Hero*/
+.hero h1{
+    font-size: 128px;
+    line-height: 135px;
+}
+
+.hero blockquote{
+    font-size: 40px;
+    line-height: 47px;
+}
+
+/*Index-catalog*/
+.index-catalog-list{
+    list-style-type: none;
+}
+.index-catalog-link{
+    text-decoration: none;
+    color: rgba(68, 63, 69, 1);
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.catalog-name-long{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/*Constructor*/
+.constructor-title{
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.constructor-content p{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.constructor-button{
+    text-decoration: none;
+    color: rgba(68, 63, 69, 1);
+    text-transform: uppercase;
+}
+
+/*History*/
+.history-content p{
+    font-size: 18px;
+    line-height: 27px;
+}
