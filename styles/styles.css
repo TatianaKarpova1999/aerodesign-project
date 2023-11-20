@@ -100,23 +100,26 @@ body{
 .hero{
     max-width: 600px;
     padding-top: 141px;
-    margin-left: 141px;
+    margin-left: 70px;
 }
 .hero h1{
-    font-size: 128px;
-    line-height: 135px;
+    font-size: 80px;
+    line-height: 87px;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 32px;
+    text-align: center;
 }
 
 .hero blockquote{
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 30px;
+    line-height: 37px;
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
+    margin-left: 60px;
 }
 
 /*Index-catalog*/
