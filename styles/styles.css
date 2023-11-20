@@ -293,4 +293,47 @@ body{
   background-repeat: no-repeat;
   background-position: center bottom;
   min-height: 140px;
+  display: flex;
+  padding: 0 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social-list{
+  display: flex;
+  list-style-type: none;
+  gap: 18px;
+  max-width: 300px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social-link{
+  width: 64px;
+  height: 64px;
+  border: 3px solid #443F45;
+  border-radius: 50%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-vk{
+  background-image: url(../images/vk.svg);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 15px;
+}
+
+.footer-social-inst{
+  background-image: url(../images/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.footer-social-tg{
+  background-image: url(../images/telegram.svg);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 50%;
 }
