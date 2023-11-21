@@ -6,6 +6,14 @@
   font-display: swap;
 }
 
+@font-face{
+  font-family: "Sanless Day";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/sunless\ day.woff") format("woff");
+  font-display: swap;
+}
+
 html{
   height: 100%;
 }
@@ -40,15 +48,6 @@ body{
   min-height: 700px;
   margin-bottom: 150px;
   position: relative;
-}
-
-.index-background::after{
-  content: "";
-  position: absolute;
-  width: 615px;
-  height: 475px;
-  background-color: #8BAB9E;
-  top: 100%;
 }
 
 .visually-hidden{
@@ -139,7 +138,7 @@ body{
 /*Main*/
 .main-container{
   flex-grow: 1;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 /*Hero*/
@@ -151,19 +150,21 @@ body{
 .main-title{
   margin: 0;
   margin-left: 70px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .hero p{
-  font-size: 25px;
+  font-family: "Sanless Day";
+  font-size: 40px;
   line-height: 47px;
   margin: 0;
   padding: 0;
-  margin-left: 70px;
-  color: #b30563;
-  color: #b30563;
+  margin-left: 50px;
+  color: #f70387;
   text-transform: uppercase;
+  letter-spacing: 4px;
   font-weight: 700;
+  text-shadow: -2px 0px 1px rgba(0, 0, 0, 0.25);
 }
 
 /*Index-catalog*/
@@ -212,7 +213,7 @@ body{
 .index-catalog-link span::after{
   content: url("../images/catalog-arr.svg");
   position: absolute;
-  left: 80%;
+  left: 85%;
   transform: translateY(3px);
 }
 
@@ -229,17 +230,30 @@ body{
   margin-bottom: 27px;
 }
 
-.catalog-image-one{
+.catalog-image-1{
   background-image: url(../images/photo-1.jpg);
 }
 
-.catalog-image-two{
+.catalog-image-2{
   background-image: url(../images/photo-2.jpg);
 }
 
-.catalog-image-three{
+.catalog-image-3{
   background-image: url(../images/photo-3.jpg);
 }
+
+.catalog-image-4{
+  background-image: url(../images/photo-4.jpg);
+}
+
+.catalog-image-5{
+  background-image: url(../images/photo-5.jpg);
+}
+
+.catalog-image-6{
+  background-image: url(../images/photo-6.jpg);
+}
+
 
 .catalog-image:hover{
   background-color: rgba(0, 0, 0, 0.6);
