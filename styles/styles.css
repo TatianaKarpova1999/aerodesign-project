@@ -139,7 +139,9 @@ body{
 /*Main*/
 .main-container{
   flex-grow: 1;
+  padding-top: 40px;
 }
+
 /*Hero*/
 .hero{
   max-width: 600px;
@@ -148,17 +150,20 @@ body{
 
 .main-title{
   margin: 0;
-  margin-top: 50px;
   margin-left: 70px;
+  margin-bottom: 30px;
 }
 
-.hero blockquote{
-  font-size: 30px;
-  line-height: 37px;
+.hero p{
+  font-size: 25px;
+  line-height: 47px;
   margin: 0;
   padding: 0;
+  margin-left: 70px;
+  color: #b30563;
+  color: #b30563;
   text-transform: uppercase;
-  margin-left: 60px;
+  font-weight: 700;
 }
 
 /*Index-catalog*/
@@ -173,6 +178,8 @@ body{
   padding: 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 100px;
 }
 
 .index-catalog-item{
